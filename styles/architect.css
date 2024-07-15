@@ -209,7 +209,26 @@ main >section{
 .sponsor-companies img{
     filter: grayscale(100%);
 }
+/* footer style start here  */
+.footer{
+  width: 1440px;
+  height: 100px;
+  margin: 0px auto;
+  margin-top: 120px;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 120px;
 
+  
+}
+.footer-content{
+  width: 620px;
+  height: 23px;
+  margin: 38px auto;
+  
+}
 
 
 
@@ -233,16 +252,18 @@ main >section{
         grid-template-columns: repeat(1, 1fr);
     }
     .facts-container{
-        justify-content: center;
+        justify-items: center;
         gap: 24px;
         margin-left: 50px;
     }
     .sponsor-companies{
         gap: 50px;
-        justify-content: center;
+        justify-items: center;
     }
-    .our-feature{
-        margin-left: 20px;
+    
+    .footer{
+      width: 100%;
+      margin: 50px auto;
     }
 
   }
@@ -254,13 +275,22 @@ main >section{
     .our-feature{
         margin-left: 50px auto;
     }
-    .sponsor-companies, .facts-container,{
+    .sponsor-companies, .facts-container{
         grid-template-columns: repeat(2, 1fr);
         gap: 50px;
         justify-items: center;
+       
     }
     #experience-badge{
         margin-left: 20px;
         margin-top: 20px;
+    }
+    .footer{
+      margin: 0px auto;
+      justify-content: center;
+      width: 100%;
+    }
+    .our-feature img{
+      width: 100%;
     }
   }
